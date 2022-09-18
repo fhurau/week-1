@@ -1,0 +1,54 @@
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+
+form {
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+form div {
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input, select, textarea {
+    background-color: #dfdede;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.submit{
+    display: flex;
+    justify-content: flex-end;
+}
+
+button:hover{
+    background-color: black;
+}

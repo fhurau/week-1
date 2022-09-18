@@ -1,0 +1,129 @@
+<html>
+
+    <head>
+
+        <title>My Project</title>
+        <link rel="stylesheet" href="css/MyProject.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <nav>
+
+            <div class="left">
+                <a href="index.html">
+                    <img src="assets/image/logo.png" alt="logo">
+                </a>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="MyProject.html" class="MP">My Project</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="right">
+                <a href="contact.html"> Contact Me </a>
+            </div>
+        </nav>
+        
+        
+        <div class="mp-form">
+            <div class="form-container">
+                <form action="">
+                    <h1>ADD MY PROJECT</h1>
+                    <div>
+                        <label for="Title">Title</label>
+                        <input id="Title">
+                    </div>
+    
+                    <div class="Date">
+                        <div class="date-left">
+                            <label for="Start Date">Start Date</label>
+                            <input type="date" id="start-date">
+                        </div>
+                        <div  class="date-right">
+                            <label for="End Date">End Date</label>
+                            <input type="date" id="end-date">
+                        </div>
+                        
+                    </div>
+    
+                    <div>
+                        <label for="Description">Description</label>
+                        <textarea id="Description" ></textarea>
+                    </div>
+                    
+                    
+                    <div>
+                        <label>Technology</label>
+                        <div class="checkbox">
+                            <div class="checkbox-atas">
+                                <input type="checkbox" id="input-nodeJS" value="node-js">Node JS</input>
+                                <input type="checkbox" id="input-nextJS" value="python">Next JS</input>
+                            </div>
+                            <div class="checkbox-bawah">
+                                <input type="checkbox" id="input-reactJS" value="react">React JS</input>
+                                <input type="checkbox" id="input-typescript" value="square-js">Type Script</input>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+
+                    <div>
+                        <label>Upload Image</label>
+                        <div class="image">
+                            <label for="Input Image">
+                                <p>Choose</p>
+                                <img src="assets/image/file.png" alt="file">
+                            </label>
+                            <input type="file" id="Input Image" hidden>
+                        </div>
+                    </div>
+    
+                    <div class="button">
+                        <button type="button" onclick="addMP()">Submit</button>
+                    </div>
+                </form>
+                <div class="judul">
+
+                    <h1>MY PROJECT</h1>
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="content-main" id="content-main">
+
+            <div class="content">
+
+                <img src="assets/image/image1.jpg" alt="image" id="content">
+                <h2>
+                    <a href="MyProjectDetail.html" target="_blank" class="link">Dumbways Mobile App - 2022</a>
+                    
+                </h2>
+                
+                <div class="waktu">
+                    <p>1 Day ago</p>
+                </div>
+
+                <p>App that used for dumbways student, it was deployed and can downloaded on playstore. Happ download.</p>
+                
+                <div class="logo">
+                    <i class="fa-brands fa-node-js"></i>
+
+                </div>
+                <button class="button-left">edit</button>
+                <button class="button-right">delete</button>
+                
+            </div>
+
+        </div>
+
+        <script src="js/MyProject.js"></script>
+    </body>
+    
+</html>
