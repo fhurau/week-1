@@ -21,17 +21,9 @@ function submitData() {
 
     let a = document.createElement('a')
 
-    a.href = `https://mail.google.com/mail/?view=cm&fs=1&to=rhomairama.dev@gmail.com&sunject=${subject}&body=Hallo nama saya ${name}, ${message}, silahkan kontak ke nomor ${phone}`
+    a.href = `https://mail.google.com/mail/?view=cm&fs=1&to=rhomairama.dev@gmail.com&Subject=${subject}&body=Hallo nama saya ${name}, ${message}, silahkan kontak ke nomor ${phone}`
     a.target = "_blank"
     a.click()
-
-    let student = {
-        name,
-        email,
-        phone,
-        subject,
-        message
-    }
-
+    console.log(submitData());
 
 }
