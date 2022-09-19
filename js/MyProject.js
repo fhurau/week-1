@@ -115,13 +115,13 @@ function getTime(startDate, endDate){
     
     
     if(distanceDay > 0){
-        return `${distanceDay} day ago`
+        return `${distanceDay} day`
     } else if(distanceHours > 0){
-        return `${distanceHours} hours ago`
+        return `${distanceHours} hours`
     } else if(distanceMinutes > 0){
-        return `${distanceMinutes} minutes ago`
+        return `${distanceMinutes} minutes`
     } else {
-        return `${distanceSecond} seconds ago`
+        return `${distanceSecond} seconds`
     }
     
 }
